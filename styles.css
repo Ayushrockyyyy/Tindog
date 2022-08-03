@@ -1,0 +1,265 @@
+body
+{
+  font-family: 'Montserrat',sans-serif;
+  text-align:center;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+font-family: 'Montserrat',sans-serif;
+font-weight: 900;
+}
+
+
+
+
+
+
+/*heading section*/
+.big-heading
+{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color:#fff;
+}
+
+.section-heading
+{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+/*containers*/
+.container-fluid
+{
+  padding:7% 15%;
+}
+
+
+
+
+
+
+
+/*navigation-bar*/
+
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand
+{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item
+{
+  padding:0 18px;
+  /*font-size:1.2rem;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 300;*/
+}
+.nav-link
+{
+  font-size:1.2rem;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 300;
+}
+
+/*Downloadbuttons*/
+.download-button
+{
+margin:5% 3% 5% 0%;
+}
+
+.columnbeforetext
+{
+  text-align: left;
+}
+
+
+
+
+
+/*title section*/
+#title
+{
+color:#fff;
+background-color: #ff4c68;
+}
+
+#title .container-fluid
+{
+padding: 3% 15% 7%;
+}
+
+
+/*title image*/
+
+
+.columnbeforetitleimage
+{
+position:relative;
+}
+.title-image
+{
+width:60%;
+transform: rotate(25deg);
+position:absolute;
+
+
+right:9rem;
+
+}
+
+/*features section*/
+#features
+{
+/*padding:7% 15%;*/
+position:relative;
+z-index:;
+background-color: #fff;
+}
+
+
+
+
+.row
+{
+  /*text-align:center;*/
+}
+.icons
+{
+  /*font-size: 3rem;*/
+color:#ef8172;
+padding-bottom:1rem;
+}
+.icons:hover
+{
+  color:#ff4c68;
+}
+
+.paragraph-1
+{
+  color:#8f8f8f;
+}
+
+.feature-title
+{
+  font-size:1.5rem;
+}
+
+
+
+
+/*testimonial section*/
+#testimonials
+{
+  /*padding:6% 15%;*/
+  /*text-align:center;*/
+  background-color:#ef8172;
+  color:#fff;
+}
+
+.testimonial-text
+{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+
+
+.testimonial-img
+{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.carousel-item
+{
+  /*padding:7% 15%;*/
+}
+
+
+/*press section*/
+#press
+{
+background-color:#ef8172;
+/*text-align:center;*/
+padding-bottom: 3%;
+}
+.image-logo
+{
+  width:15%;
+  margin:20px 20px 50px;
+}
+/*pricing section*/
+#pricing
+{
+  padding:100px;
+  /*text-align:center;*/
+}
+
+.price-text
+{
+
+  font-size:3rem;
+  line-height: 1.5;
+
+}
+.pricing-col
+{
+  padding:3% 2%;
+}
+.button
+{
+  width:100%;
+}
+/*cta section*/
+#cta
+{
+
+  background-color: #ff4c68;
+  /*text-align:center;*/
+  /*padding:7% 15%;*/
+}
+
+
+/*footer section*/
+#footer
+{
+
+background-color: #fff;
+/*text-align:center;*/
+/*padding:7% 15%;*/
+}
+.footer-para
+{
+  padding-top: 1.5rem;
+}
+
+
+.social-icons
+{
+  margin:20px 10px;
+}
+
+
+@media (max-width:1028px) {
+  #title
+{
+  text-align:center;
+}
+  .title-image
+  {
+    position:static;
+    transform:rotate(0);
+  }
+
+}
